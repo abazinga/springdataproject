@@ -1,9 +1,6 @@
 package com.wchg.domain;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 /**
  * Author 王朝刚
@@ -11,6 +8,7 @@ import javax.persistence.Id;
  */
 
 @Entity
+@Table(name = "test_employee")
 public class Employee {
 
     @Id
