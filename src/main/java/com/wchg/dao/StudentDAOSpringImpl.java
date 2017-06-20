@@ -40,7 +40,7 @@ public class StudentDAOSpringImpl implements StudentDAO {
 
     public void save(Student student) {
         String sql = "INSERT INTO student(name, age) VALUES(?,?)";
-        jdbcTemplate.update(sql, student.getName(), student.getAge());
+        jdbcTemplate.update(sql, student.getName    (), student.getAge());
     }
 
 
